@@ -1,0 +1,104 @@
+body, #container,img {
+    background-color: rgb(48, 231, 48);
+}
+@font-face {
+    font-family: myTurtleFont;
+    src: url(../font/Turtles.ttf);
+  }
+  
+ 
+div>h1 {
+    font-family: myTurtleFont;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    
+}
+ul{
+    margin:0; 
+    padding-top: 2em; 
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+}
+
+ul li a {
+    font-family:myTurtleFont;
+    display:inline-block;
+    cursor:pointer; 
+    padding:0 10px 0px 10px; 
+    border:1px #000 solid; 
+    line-height: 2em; 
+    border: 1px #000 solid; 
+    background: #fff;
+    min-width: 10em;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+/* test: Trying to add img as a bullet mark in main menu*/
+
+/* .custom-list {
+    list-style: none;
+    padding-left: 0;
+}
+.custom-list li {
+    position: relative;
+    padding-left: 20px;
+}
+.custom-list li:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url('../Images/turtleLogo.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-20%);
+} */
+
+/* test over */
+
+
+nav li:nth-child(1)>a:hover { 
+    color:#6F6B9D ; 
+    
+}
+nav li:nth-child(2)>a:hover { 
+    color:#255D98 ; 
+    
+}
+
+nav li:nth-child(3)>a:hover { 
+    color:#E8413B ; 
+    
+}
+nav li:nth-child(4)>a:hover { 
+    color:#F19A3D ; 
+    
+}
+nav li:nth-child(5)>a:hover { 
+    color:#747474; 
+    
+}
+nav li:nth-child(6)>a:hover { 
+    color:#8fd129; 
+}
+
+
+img{
+    display: block;
+}
+
+#container{
+    display: grid;
+    justify-content: center;   
+}
+
+
+
+

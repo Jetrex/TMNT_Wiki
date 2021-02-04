@@ -1,0 +1,45 @@
+body {
+    margin:0;
+    padding:0;
+}
+body, #tmntBanner,img {
+    background-color: rgb(48, 231, 48);
+}
+#tmntBanner{
+    display: grid;
+    justify-content: center;   
+}
+@font-face {
+    font-family: myTurtleFont;
+    src: url(../font/Turtles.ttf);
+  }
+div>h1 {
+    font-family: myTurtleFont;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+iframe {
+    display:grid;
+    background-color: rgb(48, 231, 48);
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+    height: 30%;
+    margin: 0 auto;
+    min-width: 300px;
+    min-height: 150px; 
+  }
+
+  div.footer {
+    display: block;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+  }
+  div.footer p{
+      text-align: center;
+  }
